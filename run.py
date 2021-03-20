@@ -45,10 +45,10 @@ while True:
                         print (flag)
                         if (flag >= frame_check):
                                 pygame.mixer.music.play(-1)
-                                cv2.putText(frame, "****************SETHUTAN!****************", (10, 30),
+                                cv2.putText(frame, "****************Alert!****************", (10, 30),
                                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
                     
-                                cv2.putText(frame, "****************SAGA PORAN!****************", (10,325),
+                                cv2.putText(frame, "****************Wake!****************", (10,325),
                                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
                                 
                 else:
